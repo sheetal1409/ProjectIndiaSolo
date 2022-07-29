@@ -1,0 +1,114 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+.home {
+margin: 0;
+text-align: center;
+background: #FFFFFF;
+box-sizing: border-box;
+border:1px solid black;
+border-radius: 15px;
+}
+
+img {
+    width: 110px;
+    border-radius: 50%;
+    height:110px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2px;
+    padding: 10px;
+    
+}
+
+.herosection{
+    background-color:lightblue;
+    font-family: 'Dancing Script', cursive;
+    display:inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding:0px;
+    
+}
+.subhead{
+    font-family:cursive;
+    font-size:30px;
+    margin-top:0px;
+    padding-top:10px;
+}
+.herosection:hover{
+    background-image: url("./images/India.jpg");
+    background-size: cover;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    left: 0px;
+    animation: 0px;
+   
+    
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:cursive;
+    color:black;
+    
+} 
+
+
+.activitiessection{
+padding: 0px;
+background-image: url("https://images.unsplash.com/photo-1600093112291-7b553e3fcb82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGluZGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+background-size: cover;
+}
+.item-history:hover{
+ border:1px solid black;
+  background-image: url("https://media.giphy.com/media/XYleemx9xYym4Lh5KA/giphy.gif") ;
+background-size: cover;
+}
+
+.item-culture:hover{
+    margin:0px;
+     background-size: cover;
+     border:1px solid black;
+    background-image: url("https://media.giphy.com/media/rBU2GiAZaf5ZlEzk2S/giphy.gif")
+}
+
+.item-food:hover{
+       margin:0px;
+      border:1px solid black;
+     background-size: cover;
+    background-image: url("https://media.giphy.com/media/3oeSANlR56jz1tEPao/giphy.gif")
+}
+h2{
+    font-size:20px;
+     text-shadow:1px 1px 2px white;
+     text-align: left;
+}
+.item{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.guide{
+    width:300px;
+    display:block;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+ background-image: url("https://media.istockphoto.com/photos/namaste-picture-id1359504186?b=1&k=20&m=1359504186&s=170667a&w=0&h=RbqhhU5kdOErtbDdAGU_hYScczKi1aIPAQegrz4ZVYQ=");
+background-size: cover;
+height: 200px;
+text-shadow: 2px 2px 5px white;
+border:4px solid black;
+border-radius:10px;
+}
